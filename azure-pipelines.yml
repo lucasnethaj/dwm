@@ -11,5 +11,6 @@ pool:
 
 steps:
 - script: |
+    sudo apt install libx11 libxinerama dmenu
     make
   displayName: 'make'
